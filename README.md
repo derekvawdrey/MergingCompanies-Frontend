@@ -8,3 +8,4 @@ Once you have cloned this repo to your local machine, run `npm install`, and the
 1. Go to the homepage and click on a company
 2. Click "Merge with duplicate"
 3. Search for the duplicate
+4. Continue with merge, and select what values 
