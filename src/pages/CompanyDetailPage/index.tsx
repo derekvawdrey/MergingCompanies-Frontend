@@ -46,14 +46,13 @@ function CompanyDetailPage() {
         <span aria-hidden className="mr-1">←</span> Companies
       </Link>
       <div className="rounded-lg border border-gray-200 bg-white shadow-sm">
-        <div className="border-b border-gray-200 px-6 py-4 flex justify-between">
+        <div className="border-b border-gray-200 px-6 py-4 flex justify-between items-center">
           <div>
             <h1 className="text-2xl font-semibold text-gray-900">{company.name}</h1>
             <p className="mt-0.5 text-sm text-gray-500">ID: {company.id}</p>
           </div>
-          <Link
-            to={`/companies/${company.id}/merge`}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200 inline-block"
+          <Link to={`/companies/${company.id}/merge`}
+            className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200"
           >
             Merge with duplicate
           </Link>
